@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Panaderia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <script src="https://kit.fontawesome.com/ed5ea8bd17.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/logo-pastelazo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Fira+Sans:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="info.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid" style="margin-top: 10px;">
+          <a class="navbar-brand" href="#"><h1>Pastelazo</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Descargar PDF</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">PRODUCTOS</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+      <!-- Gallery -->
+      <br><br><br>
+      <div class="fotorama"
+      data-loop="true"
+      data-allowfullscreen="true"
+     data-clicktransition="crossfade"
+     style="border-top: 2px solid black; margin-top: 10px; background-color: white">
+          <img src="./img/banner-pastelazo-off.jpg">
+          <img src="./img/banner-pastelazo.jpg">
+        </div>
+      <!-- Gallery --> 
+        <div class="subtitle">
+            <h2>La calidad y el sabor llegando a tu mesa!</h2>
+        </div>
+        <!-- Cards -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+               <img src="img/tarta.de.coco.jpg" class="card-img-top" alt="...">
+                 <div class="card-body" style="text-align: center;">
+                   <h5 class="card-title">Titulo</h5>
+                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eos sequi atque? Ducimus, minus ipsa!</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+       <img src="img/tarta.de.coco.jpg" class="card-img-top" alt="...">
+         <div class="card-body" style="text-align: center;">
+           <h5 class="card-title">Titulo</h5>
+             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eos sequi atque? Ducimus, minus ipsa!</p>
+</div>
+</div>
+</div><div class="col">
+  <div class="card h-100">
+     <img src="img/tarta.de.coco.jpg" class="card-img-top" alt="...">
+       <div class="card-body" style="text-align: center;">
+         <h5 class="card-title">Titulo</h5>
+           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eos sequi atque? Ducimus, minus ipsa!</p>
+</div>
+</div>
+</div>
+  </div>
+  <div class="button-pro">
+    <button class="button-pro">Ver mas <i class="fa-solid fa-angles-right"></i></button>
+  </div>
+        <!-- Cards -->
+      </body>
+</html>

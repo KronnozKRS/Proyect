@@ -1,0 +1,36 @@
+body{
+  background-color: #ccc;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.nav-link{
+  font-weight: 400;
+}
+
+.navbar-brand h1{ 
+  font-family: 'Cookie', cursive;
+  font-size: 2.5rem;
+}
+
+.navbar{
+  background-color: #A29587;
+}
+
+.active{
+  font-weight: bold;
+}
+
+.fotorama{
+  display: flex;
+  justify-content: center;
+}
+
+.subtitle{
+  text-align: center;
+  margin: 20px;
+}
+
+.map-section{
+  display: flex;
+  justify-content: center;
+}
